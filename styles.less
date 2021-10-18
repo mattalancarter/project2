@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+//*body::-webkit-scrollbar {    display: none;}*//
+
+body {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  overflow-y: hidden;
+  background-color: #FAEBD7;
+}
+
+section {
+ display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 20vh;
+  margin: 1%;
+  margin-top: 1em;
+}
+
+.arrow {
+  position: relative;
+  top: -12vh;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 50vh;
+}
+
+.location {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 20vh;
+}
+
+.schedule {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  font-size: 2vh;
+  text-transform: uppercase;
+}
+
+.schedule1 {
+  width: 50%;
+  margin-left: 10%;
+}
+
+.schedule2 {
+  width: 50%;
+  margin-right: 10%;
+}
+
+.scheduletitle {
+  text-align: center;
+}
+
+.schedulelist {
+  list-style-type: none;
+}
+
+.overlay {
+  font-family: "Helvetica", sans-serif;
+  font-size: 20vh;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -.05em;
+  width: 100vw;
+  line-height: 15vh;
+}
+
+.killme {
+  letter-spacing: -.16em;
+}
